@@ -18,11 +18,12 @@ export default {
     }
   },
   created() {
-    if (this.getNum() <= 2) {
-      setTimeout(() => {
-        this.isShow = true
-      }, 1000 * 60 * 2)
-    }
+    // 注释掉自动显示弹窗的代码
+    // if (this.getNum() <= 2) {
+    //   setTimeout(() => {
+    //     this.isShow = true
+    //   }, 1000 * 60 * 2)
+    // }
   },
   methods: {
     getNum() {

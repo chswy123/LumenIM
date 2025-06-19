@@ -47,7 +47,7 @@
           </div>
         </el-form-item>
 
-        <p style="margin-top: 50px">
+        <!-- <p style="margin-top: 50px">
           <el-divider>
             <span style="color: rgb(181, 176, 176); font-weight: 200">
               <i class="el-icon-mobile-phone" /> 预览账号
@@ -57,7 +57,7 @@
         <el-form-item class="preview-account">
           <p>预览账号:18798272054 / 密码: admin123</p>
           <p>预览账号:18798272055 / 密码: admin123</p>
-        </el-form-item>
+        </el-form-item> -->
       </el-form>
     </div>
   </div>

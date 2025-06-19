@@ -33,11 +33,12 @@ export default {
     }
   },
   created() {
-    if (this.getNum() <= 3) {
-      setTimeout(() => {
-        this.isShow = true
-      }, 1000 * 30)
-    }
+    // 注释掉自动显示弹窗的代码
+    // if (this.getNum() <= 3) {
+    //   setTimeout(() => {
+    //     this.isShow = true
+    //   }, 1000 * 30)
+    // }
   },
   methods: {
     getNum() {
